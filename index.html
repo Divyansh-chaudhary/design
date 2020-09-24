@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design</title>
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!-- slick carousel -->
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <!-- menu -->
+      <nav class="nav">
+        <div class="mobile">
+          <div class="logo_img">
+            <img
+              src="./images/FAVPNG_logo-royalty-free-illustration_DGdYAQYc.png"
+              alt="logo"
+            />
+          </div>
+          <button onclick="nav_btn()" class="nav_btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="navitems">
+          <p>Home</p>
+          <p>About</p>
+          <p>Work</p>
+          <p>Process</p>
+          <p>Services</p>
+          <p>Testimonials</p>
+          <p>Contact</p>
+        </div>
+      </nav>
+      <!-- menu end -->
+      <div class="header_info">
+        <h1>We Design and Develop</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+          aperiam. Perferendis, sequi. Magni aut consequuntur accusamus amet
+          asperiores, quas mollitia incidunt natus rem.
+        </p>
+        <button class="btn header_btn">contact us</button>
+      </div>
+    </header>
+
+    <!-- main start -->
+    <main>
+      <!-- about us section -->
+      <section class="about_us">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+          dolorem corrupti praesentium quod tenetur. Labore quae magni ipsam
+          error iure in.
+        </p>
+        <div class="signature_img">
+          <img
+            src="./images/FAVPNG_quincy-braintree-united-states-declaration-of-independence-john-hancock-barbershop-signature_ccB73qum.png"
+            alt="Digital signature"
+          />
+        </div>
+      </section>
+      <!-- about us section ends -->
+
+      <!-- skill section start -->
+      <section class="skills">
+        <h2>Professional Skills</h2>
+        <br />
+        <div class="skill">
+          <p>
+            <span>ui/ux design</span>
+            <span>75%</span>
+          </p>
+          <div class="progress_bar">
+            <div class="progress skill_one"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>
+            <span>web development</span>
+            <span>90%</span>
+          </p>
+          <div class="progress_bar">
+            <div class="progress skill_two"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>
+            <span>marketing</span>
+            <span>65%</span>
+          </p>
+          <div class="progress_bar">
+            <div class="progress skill_three"></div>
+          </div>
+        </div>
+      </section>
+      <!-- skill section end -->
+
+      <!-- projects info start -->
+      <section class="project_info">
+        <div>
+          <div>
+            <i class="fas fa-shopping-bag"></i>
+          </div>
+          <div>
+            <p>548</p>
+            <p>Projects comp</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <i class="fas fa-user"></i>
+          </div>
+          <div>
+            <p>1366</p>
+            <p>Working hours</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <i class="fas fa-star"></i>
+          </div>
+          <div>
+            <p>676</p>
+            <p>Happy clients</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <i class="fas fa-heart"></i>
+          </div>
+          <div>
+            <p>548</p>
+            <p>Projects compl</p>
+          </div>
+        </div>
+      </section>
+      <!-- projects info end -->
+
+      <!-- images start -->
+      <section class="gallery">
+        <div class="images-container">
+          <div class="img-container">
+            <img src="./images/9.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./images/8.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./images/7.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./images/6.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./images/5.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./images/4.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./images/11.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./images/10.jpg" alt="" />
+          </div>
+        </div>
+        <div class="load-more">load more work</div>
+      </section>
+      <!-- images end -->
+
+      <!-- work start -->
+      <section class="work">
+        <div>
+          <h2>Our Work Process</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            maiores dolorum nostrum ipsum vel porro possimus iusto officia
+            beatae accusamus asperiores blanditiis
+          </p>
+          <div class="video-container">
+            <video id="video" src="./video/Keyboard - 1046.mp4"></video>
+            <button type="button" id="play_btn">
+              <i class="fas fa-play-circle"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- work end -->
+
+      <!-- work we provide start -->
+      <section class="provide">
+        <div>
+          <i class="fas fa-dice"></i>
+          <h4>ui / ux design</h4>
+          <p>Be sat fourth land god darkness make it wherein own</p>
+        </div>
+        <div>
+          <i class="fas fa-gamepad"></i>
+          <h4>web development</h4>
+          <p>Be sat fourth land god darkness make it wherein own</p>
+        </div>
+        <div>
+          <i class="fas fa-mobile"></i>
+          <h4>game design</h4>
+          <p>Be sat fourth land god darkness make it wherein own</p>
+        </div>
+        <div>
+          <i class="fas fa-umbrella"></i>
+          <h4>seo / marketing</h4>
+          <p>Be sat fourth land god darkness make it wherein own</p>
+        </div>
+        <div>
+          <i class="fas fa-dog"></i>
+          <h4>photography</h4>
+          <p>Be sat fourth land god darkness make it wherein own</p>
+        </div>
+        <div>
+          <i class="fas fa-fan"></i>
+          <h4>graphic design</h4>
+          <p>Be sat fourth land god darkness make it wherein own</p>
+        </div>
+        <div>
+          <i class="fas fa-paint-roller"></i>
+          <h4>app / mobile</h4>
+          <p>Be sat fourth land god darkness make it wherein own</p>
+        </div>
+        <div>
+          <i class="fas fa-traffic-light"></i>
+          <h4>illustration</h4>
+          <p>Be sat fourth land god darkness make it wherein own</p>
+        </div>
+      </section>
+      <!-- work we provide end -->
+
+      <!-- carousel start -->
+      <section class="carousel-container">
+        <div class="carousel">
+          <div class="corousel_item" style="width: 100%">
+            <div class="carousel_data">
+              <q>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laboriosam accusantium assumenda explicabo iste alias earum
+                fugiat excepturi ducimus numquam dicta nulla.
+              </q>
+              <p>john doe</p>
+            </div>
+          </div>
+          <div class="corousel_item" style="width: 100%">
+            <div class="carousel_data">
+              <q>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laboriosam accusantium assumenda explicabo iste alias earum
+                fugiat excepturi ducimus numquam dicta nulla.
+              </q>
+              <p>john doe</p>
+            </div>
+          </div>
+          <div class="corousel_item" style="width: 100%">
+            <div class="carousel_data">
+              <q>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laboriosam accusantium assumenda explicabo iste alias earum
+                fugiat excepturi ducimus numquam dicta nulla.
+              </q>
+              <p>john doe</p>
+            </div>
+          </div>
+        </div>
+        <br />
+      </section>
+      <!-- carousel end -->
+
+      <!-- brands start -->
+      <section class="brands">
+        <div>
+          <img src="./images/12-jaguar-car-logo-png-brand-image.png" alt="" />
+        </div>
+        <div>
+          <img src="./images/6-mini-car-logo-png-brand-image.png" alt="" />
+        </div>
+        <div>
+          <img src="./images/8-volvo-car-logo-png-brand-image.png" alt="" />
+        </div>
+        <div>
+          <img
+            src="./images/—Pngtree—creative suv advertising illustrator vector_15369.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img src="./images/—Pngtree—label picture_718811.png" alt="" />
+        </div>
+      </section>
+      <!-- brands end -->
+
+      <!-- form start -->
+      <section class="form">
+        <div>
+          <div>
+            <h2>Nead a Project?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              dolores magni sunt quod molestias esse sed quas explicabo.
+              Corporis modi veritatis?
+            </p>
+          </div>
+          <form class="">
+            <div class="row">
+              <input
+                class="column"
+                type="text"
+                name="name"
+                placeholder="Your Name"
+              />
+              <input
+                class="column"
+                type="email"
+                name="email"
+                placeholder="Your Email"
+              />
+            </div>
+            <input type="text" name="title" placeholder="Your Title" />
+            <textarea
+              name="comment"
+              rows="9"
+              placeholder="Your Comment"
+            ></textarea>
+            <button class="submit" type="submit">send message</button>
+          </form>
+        </div>
+      </section>
+      <!-- form end -->
+    </main>
+    <!-- main end  -->
+
+    <!-- footer start -->
+    <footer class="row">
+      <div class="column">
+        <h3>Piroll Design, Inc.</h3>
+        <p>© 2020 Piroll. All rights reserved. <br />Designed by robirurk.</p>
+      </div>
+      <div class="column">
+        <p>heoll@dkdk.com</p>
+        <p>+44 44 44 444 444</p>
+      </div>
+      <div class="column">
+        <p>Projects</p>
+        <p>About</p>
+        <p>Services</p>
+        <p>Carrer</p>
+      </div>
+      <div class="column">
+        <p>News</p>
+        <p>Events</p>
+        <p>Contact</p>
+        <p>legals</p>
+      </div>
+      <div class="column">
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>Twitter</p>
+        <p>Dribble</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- custom script -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.1/jquery-migrate.min.js"
+      integrity="sha512-wDH73bv6rW6O6ev5DGYexNboWMzBoY+1TEAx5Q/sdbqN2MB2cNTG9Ge/qv3c1QNvuiAuETsKJnnHH2UDJGmmAQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
